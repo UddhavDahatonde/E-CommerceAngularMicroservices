@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front-End", "Front-End", "{5CA307BC-CE56-4AD2-92C1-B41C401765D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{F0925A2B-8012-4766-BB36-F8E63043138E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{55070038-5585-4356-AE49-CADBAC6A2774}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGatway", "APIGatway", "{E9E478E9-8619-4A2A-A785-978660CD7ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAPI", "ProductAPI\ProductAPI.csproj", "{B2C513D4-92A4-4577-B0B2-CB788C2C98FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2C513D4-92A4-4577-B0B2-CB788C2C98FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C513D4-92A4-4577-B0B2-CB788C2C98FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C513D4-92A4-4577-B0B2-CB788C2C98FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C513D4-92A4-4577-B0B2-CB788C2C98FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2C513D4-92A4-4577-B0B2-CB788C2C98FF} = {55070038-5585-4356-AE49-CADBAC6A2774}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD0B319B-0686-4DC1-8D57-D385AF12437C}
+	EndGlobalSection
+EndGlobal
