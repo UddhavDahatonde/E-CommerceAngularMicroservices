@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{55
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGatway", "APIGatway", "{E9E478E9-8619-4A2A-A785-978660CD7ED8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAPI", "ProductAPI\ProductAPI.csproj", "{B2C513D4-92A4-4577-B0B2-CB788C2C98FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductAPIMock", "ProductAPIMock\ProductAPIMock.csproj", "{05473310-D6CE-4ADE-9371-B0780DC39B2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +19,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B2C513D4-92A4-4577-B0B2-CB788C2C98FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2C513D4-92A4-4577-B0B2-CB788C2C98FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2C513D4-92A4-4577-B0B2-CB788C2C98FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2C513D4-92A4-4577-B0B2-CB788C2C98FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05473310-D6CE-4ADE-9371-B0780DC39B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05473310-D6CE-4ADE-9371-B0780DC39B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05473310-D6CE-4ADE-9371-B0780DC39B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05473310-D6CE-4ADE-9371-B0780DC39B2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B2C513D4-92A4-4577-B0B2-CB788C2C98FF} = {55070038-5585-4356-AE49-CADBAC6A2774}
+		{05473310-D6CE-4ADE-9371-B0780DC39B2B} = {55070038-5585-4356-AE49-CADBAC6A2774}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD0B319B-0686-4DC1-8D57-D385AF12437C}
