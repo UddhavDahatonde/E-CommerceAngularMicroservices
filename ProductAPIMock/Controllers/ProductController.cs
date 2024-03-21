@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ProductAPIMock.Models;
 using ProductAPIMock.Service.IService;
 
 namespace ProductAPIMock.Controllers
@@ -15,10 +16,37 @@ namespace ProductAPIMock.Controllers
 			_productService = productService;
 		}
 		[HttpGet]
-		public async Task GetAll()
+		[Route("GetAll")]
+		public async Task<IEnumerable<Product>> GetAll()
 		{
-			 var result =await _productService.GetAll();
-		     // await _productService.Add(result);
+			 return await _productService.GetAll();
+		}
+		[HttpGet]
+		[Route("Id:int")]
+		public async Task<Product> GetById(int Id)
+		{
+			return await _productService.GetById(Id);
+		}
+		[HttpGet]
+		[Route("GetByName")]
+		public async Task<IEnumerable<Product>> GetByName(string Name)
+		{
+			return await _productService.GetByCondition(x=>x.Title.Contains(Name));
+		}
+		[HttpPost]
+		public async Task Add(Product product)
+		{
+			 await _productService.Add(product);
+		}
+		[HttpPut]
+		public async Task Update(Product product)
+		{
+			 await _productService.Update(product);
+		}
+		[HttpDelete("Id:int")]
+		public async Task Delete(int Id)
+		{
+			await _productService.Delete(Id);
 		}
 	}
 }

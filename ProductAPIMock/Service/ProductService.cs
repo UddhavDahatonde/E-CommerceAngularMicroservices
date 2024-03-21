@@ -58,7 +58,7 @@ namespace ProductAPIMock.Service
 
 		public async Task<IEnumerable<Product>> GetAll()
 		{
-			return await _appDb.Products.ToListAsync();
+			return await _appDb.Products.Include("Category").Include("Images").ToListAsync();
 		}
 
 		public async Task<Product> GetById(int id)
