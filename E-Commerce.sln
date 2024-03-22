@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGatway", "APIGatway", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductAPIMock", "ProductAPIMock\ProductAPIMock.csproj", "{05473310-D6CE-4ADE-9371-B0780DC39B2B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTesting", "UnitTesting", "{8CECF6FB-16DD-45AD-9846-B96148793D4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnit_Testing", "XUnit_Testing\XUnit_Testing.csproj", "{A0256387-C56B-484F-A36C-F3C034AE6C1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +25,17 @@ Global
 		{05473310-D6CE-4ADE-9371-B0780DC39B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05473310-D6CE-4ADE-9371-B0780DC39B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05473310-D6CE-4ADE-9371-B0780DC39B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0256387-C56B-484F-A36C-F3C034AE6C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0256387-C56B-484F-A36C-F3C034AE6C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0256387-C56B-484F-A36C-F3C034AE6C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0256387-C56B-484F-A36C-F3C034AE6C1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{05473310-D6CE-4ADE-9371-B0780DC39B2B} = {55070038-5585-4356-AE49-CADBAC6A2774}
+		{A0256387-C56B-484F-A36C-F3C034AE6C1A} = {8CECF6FB-16DD-45AD-9846-B96148793D4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD0B319B-0686-4DC1-8D57-D385AF12437C}
